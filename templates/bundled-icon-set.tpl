@@ -10,9 +10,6 @@ const iconSet = createIconSet(glyphMap, '${fontFamily}', '${componentName}.ttf')
 
 export default iconSet;
 export const {
-  Button,
-  TabBarItem,
-  TabBarItemIOS,
   getImageSource,
   getImageSourceSync,
 } = iconSet;
